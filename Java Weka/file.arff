@@ -1,0 +1,16 @@
+@relation Transactions
+@attribute 'Bread' {t}
+@attribute 'Burger' {t}
+@attribute 'Cheese' {t}
+@attribute 'Chocolates' {t}
+@attribute 'Juice' {t}
+@attribute 'Milk' {t}
+@attribute 'Soup' {t}
+@attribute 'Sweets' {t}
+@data
+t,?,?,?,t,?,?,?
+?,t,t,?,?,t,?,t
+?,t,?,t,?,?,?,?
+t,t,?,?,?,t,t,t
+?,?,t,t,?,?,?,t
+?,t,?,?,t,?,t,?
